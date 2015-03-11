@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+p {
+    width: 200px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 38px;
+}
+
+p.follow {
+    background-color: #0084B4;
+}
+
+p.unfollow {
+    background-color: salmon;
+}
+
+img {
+    width: 200px;
+    margin-bottom: 10px;
+}
