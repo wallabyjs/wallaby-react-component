@@ -13,7 +13,7 @@ describe('User Profile', function () {
   });
 
   afterEach(function () {
-    document.body.removeChild(this.container);
+    this && document.body.removeChild(this.container);
   });
 
   describe('Follow button', function () {
