@@ -18,12 +18,12 @@ module.exports = function () {
       // babel
       // '**/*.jsx': file => require('babel').transform(file.content, {sourceMap: true})
               
-        // NOTE: If you're using Babel 6, you should use `presets: ['es2015']`.
-        // You will also need to
-        // npm install babel-core (and require it instead of babel)
-        // and
-        // npm install babel-preset-es2015
-        // See http://babeljs.io/docs/plugins/preset-es2015/
+      // NOTE: If you're using Babel 6, you should add `presets: ['es2015', 'react']` instead of `stage: 0`.
+      // You will also need to
+      // npm install babel-core (and require it instead of babel)
+      // and
+      // npm install babel-preset-es2015 babel-preset-react
+      // See http://babeljs.io/docs/plugins/preset-es2015/ and http://babeljs.io/docs/plugins/preset-react/
 
     }
   };
