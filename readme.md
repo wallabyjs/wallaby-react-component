@@ -1,3 +1,5 @@
+[![Wallaby.js](https://img.shields.io/badge/wallaby.js-configured-green.svg)](https://wallabyjs.com)
+
 # React components testing with wallaby.js
 [See the tutorial for more details.](http://dm.gl/2015/03/11/wallaby-react/)
 
